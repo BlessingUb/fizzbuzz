@@ -5,6 +5,8 @@ def fizzbuzz(number)
         "fizz"
     elsif number % 5 == 0
         "buzz"
+    elsif number == ""
+        "this is not valid"
     else
         number
     end 
